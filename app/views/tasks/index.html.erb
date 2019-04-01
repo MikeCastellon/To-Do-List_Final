@@ -1,0 +1,10 @@
+<h1><%= params[:status]&.titleize || "All" %> Tasks</h1>
+
+<%= react_component 'Tasks',
+    props: { status: params[:status] } %>
+
+<hr>
+
+<% unless params[:status] == 'completed' %>
+  <%= render 'form', task: @task %>
+<% end %>

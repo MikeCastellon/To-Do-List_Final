@@ -1,0 +1,23 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a:hover{
+  text-decoration: none;
+}
+
+.badge-lg{
+  font-size: large;
+}
+
+.badge-sm{
+  font-size: small;
+}
+
+.badge-clickable{
+  cursor: pointer;
+}
+
+.badge{
+  transition: all 0.1s;
+}
